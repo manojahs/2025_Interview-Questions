@@ -9,3 +9,4 @@
 3) .net core life cycle 
 4) Service life cycle
 5) Extension methods
+6) How to write a test cases what are the Types
