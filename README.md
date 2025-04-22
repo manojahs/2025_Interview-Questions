@@ -50,8 +50,11 @@ Technoforte interview
  New Interview Questions
  ------------------------
  1) what is auth and auth how it works in ur project
- 2) what is async and await
+ 2) what is async , await and sync explain
  3) how will u validate user token is going to expire
  4) Union
- 5) Index
+ 5) Index in sql
+ 6) ref and out
+ 7) add scope and add transient explain
+ 8) Liskov substitution rule
 
