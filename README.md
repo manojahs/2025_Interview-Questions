@@ -47,5 +47,11 @@ Technoforte interview
 19) fibonacci code
 20) difference between abstract and interface and when to use it
 
-
+ New Interview Questions
+ ------------------------
+ 1) what is auth and auth how it works in ur project
+ 2) what is async and await
+ 3) how will u validate user token is going to expire
+ 4) Union
+ 5) Index
 
