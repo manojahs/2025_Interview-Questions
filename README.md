@@ -58,3 +58,11 @@ Technoforte interview
  7) add scope and add transient explain
  8) Liskov substitution rule
 
+    infosys
+
+    1) what are indexers
+    2) async and sync difference
+    3) what are locks in c sharp
+    4) soap and rest api difference
+       
+
