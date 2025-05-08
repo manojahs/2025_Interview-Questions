@@ -64,5 +64,36 @@ Technoforte interview
     2) async and sync difference
     3) what are locks in c sharp
     4) soap and rest api difference
-       
+
+
+       GoAvega
+       -------
+
+       public abstract class GenericRepository<C, T> : 
+    IGenericRepository<T> where T : class where C : DbContext, 
+
+   new() {
+
+
+    public IQueryable<T> FindBy(System.Linq.Expressions.Expression<Func<T, bool>> predicate) {
+ 
+        IQueryable<T> query = _entities.Set<T>().Where(predicate);
+        return query;
+    }
+
+
+join two tables table1 and table2, fetch table1 records.
+ filter records 
+where table1 id greater than 2 and table2 id less 10 
+without where condition
+
+
+select t1.* from table1 t1
+join table2 t2 with (nolock) on t1.id = t2.id
+where  between t1.id(2,10) 
+
+
+select t1.* from table1 t1
+join table2 t2 with (nolock) on t1.id = t2.id 
+and  between t1.id(2,10) 
 
