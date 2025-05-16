@@ -97,3 +97,39 @@ select t1.* from table1 t1
 join table2 t2 with (nolock) on t1.id = t2.id 
 and  between t1.id(2,10) 
 
+
+
+int[] a = int a[2,5,7,11,13];
+
+int[] v = a.select(b=>b%2==0).List();
+
+class Employee
+
+id      salary    	name    dept
+1       700000           A      dev
+2       1000000          B      dev
+3       500000           C      qa
+4       800000           D      qa
+
+based on the dept
+get the 2nd highest salary based on the dept
+employee.orderbydesc(a=>a.salary).skip(1).firstOrDefault();
+
+in the below string need to get each word repeated how many times 
+
+string name = "i am from bangalore and i stay in outskurt of bangalore"
+
+private string Name(string name)
+{
+ string[] a = name.split(" ");
+ Dictionary<int,string> frequency = new Dictionary<int,string>();
+
+ foreach(var num in a)
+{
+  frequency = num.GetValueOrDefault(num,0)+1
+}
+
+frequency.orderByDescending(k=>k.key).select();
+
+
+}
